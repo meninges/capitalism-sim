@@ -140,7 +140,7 @@ def Home(go_plaza):
             if x == "stay":
                 capitalist_no1.time += 1
                 print ("""You decide to stay at home. What would you like to do? (Out/Stay)""")
-            if capitalist_no1.time < 10.0:
+            if capitalist_no1.time > 10.0:
                 continue
             #checking your stats as soon as you wake up? sweat.
             if x == "checkin":
